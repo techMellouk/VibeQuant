@@ -1,8 +1,6 @@
 # VibeQuant
 
-<video src="vibequant.mp4" autoplay loop muted playsinline controls width="100%"></video>
-
-https://github.com/techMellouk/VibeQuant/raw/main/vibequant.mp4
+![VibeQuant demo](vibequant.gif)
 
 Natural language trading on [Alpha Arcade](https://alphaarcade.com) prediction markets, with optional paid signals over **x402 on Algorand**.
 
