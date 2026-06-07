@@ -69,7 +69,7 @@ function normalizeOption(parent: Market, opt: MarketOption): MarketState {
   return {
     id: opt.id || `${parent.id}:${opt.marketAppId}`,
     marketAppId: opt.marketAppId,
-    title: `${parent.title}: ${opt.title}`,
+    title: opt.title ? `${parent.title}: ${opt.title}` : parent.title,
     slug: parent.slug,
     image: parent.image,
     categories: parent.categories ?? [],
