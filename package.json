@@ -1,0 +1,5 @@
+{
+  "name": "vibequant",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"]
+}

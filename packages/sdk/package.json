@@ -1,0 +1,30 @@
+{
+  "name": "@vibequant/sdk",
+  "version": "0.1.0",
+  "type": "module",
+  "module": "index.ts",
+  "main": "index.ts",
+  "types": "index.ts",
+  "exports": {
+    ".": {
+      "types": "./index.ts",
+      "import": "./index.ts"
+    }
+  },
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "bun build ./index.ts --outdir dist --target node"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@algorandfoundation/algokit-utils": "^9.2.0",
+    "@alpha-arcade/sdk": "^0.3.10",
+    "algosdk": "^3.5.2"
+  }
+}

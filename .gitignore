@@ -1,0 +1,30 @@
+# Dependencies (install with npm install)
+node_modules/
+
+# Bun install cache inside node_modules
+.bun/
+
+# Next.js build output
+.next/
+out/
+
+# Package build output
+dist/
+
+# Environment secrets (keep *.example files)
+.env
+.env.local
+.env.*.local
+packages/sdk/.env
+
+# OS / editor
+.DS_Store
+.idea/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Vercel
+.vercel/
